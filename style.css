@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: Inter;
+
+  color: #263238;
+}
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./img/background.png");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+}
+.logo {
+  /* height: 13rem; */
+}
+.nav {
+  width: 100vw;
+  position: fixed;
+}
+nav {
+  width: 120rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+a {
+  /* font-size: 2rem; */
+  text-decoration: none;
+}
+nav a {
+  font-size: 1.8rem;
+}
+nav a:hover {
+  color: #999 !important;
+}
+.btn {
+  padding: 1.5rem 3rem;
+  border-radius: 2.4rem;
+  display: flex;
+  background-color: #fff;
+}
+.btn ion-icon {
+  margin-left: 1rem;
+  color: orange;
+  font-size: 2rem;
+  align-self: center;
+}
+.btn:hover {
+  background-color: #eee;
+}
+.btn2 {
+  padding: 1.5rem 3rem;
+  border-radius: 2.4rem;
+  display: flex;
+  background-color: #263238;
+}
+.btn ion-icon {
+  margin-left: 1rem;
+  color: orange;
+  font-size: 2rem;
+  align-self: center;
+}
+.btn2:hover {
+  background-color: #777;
+}
+.hero {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  /* align-content: center; */
+}
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 2rem;
+}
+.heroContent h1 {
+  font-size: 5rem;
+}
+
+.heroContent p {
+  font-size: 1.6rem;
+  color: #00000080;
+  line-height: 1.6;
+}
+.btns {
+  display: flex;
+  gap: 2rem;
+}
+.hero img {
+  /* margin-top: 25%; */
+}
+.heroData {
+  width: 120rem;
+  height: 100vh;
+  margin: 0 auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  font-size: 1.8rem;
+}
+.btn2 {
+  font-size: 1.8rem;
+  color: #fff;
+}
