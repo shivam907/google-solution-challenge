@@ -16,17 +16,25 @@
   background-position: center;
   background-size: cover;
 }
+.scrolled {
+  /* background-color: #ff8c9240; */
+  backdrop-filter: blur(10px);
+  padding: 1rem 0 !important;
+  transition: all 0.1s;
+}
 .logo {
   /* height: 13rem; */
 }
 .nav {
+  transition: all 0.1s;
   width: 100vw;
+  z-index: 99;
+  padding: 2rem 0;
   position: fixed;
 }
 nav {
   width: 120rem;
   margin: 0 auto;
-  padding: 2rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
