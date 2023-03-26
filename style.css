@@ -25,6 +25,28 @@
   background-position: center;
   background-size: cover;
 }
+.don {
+  height: 50vh;
+  width: 100vw;
+  background-image: url("./img/donation.png");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: 100%;
+  padding-top: 5rem;
+}
+.donationForm {
+  height: 100vh;
+  width: 120rem;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  background-image: url("./img/Skill.png");
+  background-repeat: no-repeat;
+  padding: 10rem;
+  background-position: center;
+  background-size: 100%;
+  /* padding-top: 5rem; */
+}
 .scrolled {
   /* background-color: #ff8c9240; */
   backdrop-filter: blur(10px);
@@ -442,4 +464,37 @@ textarea {
   bottom: 15rem;
   right: 25rem;
   font-size: 2.5rem;
+}
+.inputdon {
+  display: flex;
+  gap: 2.5rem;
+}
+.inputdon label {
+  font-size: 2rem;
+  min-width: 15rem;
+}
+.inputdon input {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 3rem;
+}
+.donationForm textarea {
+  padding: 1rem;
+  background-color: #fff;
+  height: 20rem;
+  border-radius: 3rem;
+}
+.donationForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.donname {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+.donationForm .btn2 {
+  align-self: flex-end;
 }
