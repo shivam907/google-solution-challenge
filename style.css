@@ -35,6 +35,9 @@
   background-size: 100%;
   padding-top: 5rem;
 }
+.don1 {
+  padding-top: 9rem !important;
+}
 .donationForm {
   height: 100vh;
   width: 120rem;
@@ -43,6 +46,18 @@
   background-image: url("./img/Skill.png");
   background-repeat: no-repeat;
   padding: 10rem;
+  background-position: center;
+  background-size: 100%;
+  /* padding-top: 5rem; */
+}
+.donationForm1 {
+  height: 30vh;
+  width: 80rem;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  background-image: url("./img/Skill.png");
+  background-repeat: no-repeat;
+  padding: 7rem 5rem;
   background-position: center;
   background-size: 100%;
   /* padding-top: 5rem; */
@@ -488,7 +503,8 @@ textarea {
   height: 20rem;
   border-radius: 3rem;
 }
-.donationForm {
+.donationForm,
+.donationForm1 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -499,7 +515,8 @@ textarea {
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
 }
-.donationForm .btn2 {
+.donationForm .btn2,
+.donationForm1 .btn2 {
   align-self: flex-end;
 }
 
