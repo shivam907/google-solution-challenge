@@ -36,6 +36,7 @@
   padding-top: 5rem;
 }
 .don1 {
+  background-image: url("./img/login.png") !important;
   padding-top: 9rem !important;
 }
 .donationForm {
