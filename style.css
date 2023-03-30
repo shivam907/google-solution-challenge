@@ -560,6 +560,54 @@ textarea {
   grid-template-columns: 1fr 1fr;
   gap: 25rem;
 }
+.lead {
+  width: 100%;
+  height: 34rem;
+  padding: 5rem;
+  /* background-image: url("./img/lead.png"); */
+  background-color: #d9d9d9;
+  background-size: 100%;
+  /* display: grid; */
+  position: relative;
+  /* grid-template-columns: 1fr 1fr; */
+  /* display: flex;
+  flex-direction: column;
+  gap: 1rem; */
+  /* align-self: flex-end; */
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  /* padding-left: 20rem; */
+  /* gap: 25rem; */
+}
+.leadContent {
+  /* align-self: flex-end; */
+  justify-self: flex-end;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.leadContent h1 {
+  font-size: 3rem;
+}
+.leadContent p {
+  font-size: 1.6rem;
+  /* max-width: 40%; */
+  line-height: 1.6;
+}
+.leadDabba {
+  display: flex;
+  gap: 1rem;
+}
+.lead img {
+  position: absolute;
+  top: -4rem;
+  width: 100%;
+}
+.leadDabba h2 {
+  font-size: 2rem;
+}
+
 .dabba1,
 .dabba2 {
   display: flex;
