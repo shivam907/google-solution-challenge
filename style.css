@@ -51,6 +51,18 @@
   background-size: 100%;
   /* padding-top: 5rem; */
 }
+.donationForm3 {
+  height: 55vh !important;
+  width: 120rem;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  background-image: url("./img/Skill.png");
+  background-repeat: no-repeat;
+  padding: 10rem;
+  background-position: center;
+  background-size: 100%;
+  /* padding-top: 5rem; */
+}
 .donationForm1 {
   height: 30vh;
   width: 80rem;
